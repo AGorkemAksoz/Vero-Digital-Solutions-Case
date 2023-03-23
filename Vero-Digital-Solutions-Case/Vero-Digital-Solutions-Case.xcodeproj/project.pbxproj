@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		DD44E74B29C9F89B00AF0B5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E74A29C9F89B00AF0B5D /* AppDelegate.swift */; };
 		DD44E74D29C9F89B00AF0B5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E74C29C9F89B00AF0B5D /* SceneDelegate.swift */; };
-		DD44E74F29C9F89B00AF0B5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E74E29C9F89B00AF0B5D /* ViewController.swift */; };
-		DD44E75229C9F89B00AF0B5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD44E75029C9F89B00AF0B5D /* Main.storyboard */; };
 		DD44E75529C9F89B00AF0B5D /* Vero_Digital_Solutions_Case.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD44E75329C9F89B00AF0B5D /* Vero_Digital_Solutions_Case.xcdatamodeld */; };
 		DD44E75729C9F89B00AF0B5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD44E75629C9F89B00AF0B5D /* Assets.xcassets */; };
 		DD44E75A29C9F89B00AF0B5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD44E75829C9F89B00AF0B5D /* LaunchScreen.storyboard */; };
@@ -21,14 +19,18 @@
 		DD44E77A29CC83B500AF0B5D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E77929CC83B500AF0B5D /* NetworkService.swift */; };
 		DD44E77D29CC83D000AF0B5D /* ItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E77C29CC83D000AF0B5D /* ItemsModel.swift */; };
 		DD44E77F29CC83DF00AF0B5D /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E77E29CC83DF00AF0B5D /* LoginResponseModel.swift */; };
+		DD44E78229CC843400AF0B5D /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E78129CC843400AF0B5D /* UIColor+Ext.swift */; };
+		DD44E78729CC846200AF0B5D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E78629CC846200AF0B5D /* HomeViewController.swift */; };
+		DD44E78929CC846B00AF0B5D /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E78829CC846B00AF0B5D /* HomeViewViewModel.swift */; };
+		DD44E78C29CC84C500AF0B5D /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E78B29CC84C500AF0B5D /* TaskTableViewCell.swift */; };
+		DD44E78F29CC850400AF0B5D /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E78E29CC850400AF0B5D /* DataPersistenceManager.swift */; };
+		DD44E79229CC852B00AF0B5D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E79129CC852B00AF0B5D /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD44E74729C9F89B00AF0B5D /* Vero-Digital-Solutions-Case.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vero-Digital-Solutions-Case.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD44E74A29C9F89B00AF0B5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD44E74C29C9F89B00AF0B5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DD44E74E29C9F89B00AF0B5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DD44E75129C9F89B00AF0B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD44E75429C9F89B00AF0B5D /* Vero_Digital_Solutions_Case.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vero_Digital_Solutions_Case.xcdatamodel; sourceTree = "<group>"; };
 		DD44E75629C9F89B00AF0B5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD44E75929C9F89B00AF0B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +42,12 @@
 		DD44E77929CC83B500AF0B5D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		DD44E77C29CC83D000AF0B5D /* ItemsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsModel.swift; sourceTree = "<group>"; };
 		DD44E77E29CC83DF00AF0B5D /* LoginResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseModel.swift; sourceTree = "<group>"; };
+		DD44E78129CC843400AF0B5D /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		DD44E78629CC846200AF0B5D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DD44E78829CC846B00AF0B5D /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
+		DD44E78B29CC84C500AF0B5D /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		DD44E78E29CC850400AF0B5D /* DataPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceManager.swift; sourceTree = "<group>"; };
+		DD44E79129CC852B00AF0B5D /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,14 +80,15 @@
 		DD44E74929C9F89B00AF0B5D /* Vero-Digital-Solutions-Case */ = {
 			isa = PBXGroup;
 			children = (
+				DD44E78D29CC84F800AF0B5D /* Data */,
+				DD44E78429CC844F00AF0B5D /* View */,
+				DD44E78029CC842500AF0B5D /* Extensions */,
 				DD44E77B29CC83C700AF0B5D /* Model */,
 				DD44E77829CC83A700AF0B5D /* Service */,
 				DD44E77129CC834600AF0B5D /* Helpers */,
 				DD44E76E29CC832500AF0B5D /* Network */,
 				DD44E74A29C9F89B00AF0B5D /* AppDelegate.swift */,
 				DD44E74C29C9F89B00AF0B5D /* SceneDelegate.swift */,
-				DD44E74E29C9F89B00AF0B5D /* ViewController.swift */,
-				DD44E75029C9F89B00AF0B5D /* Main.storyboard */,
 				DD44E75629C9F89B00AF0B5D /* Assets.xcassets */,
 				DD44E75829C9F89B00AF0B5D /* LaunchScreen.storyboard */,
 				DD44E75B29C9F89B00AF0B5D /* Info.plist */,
@@ -121,6 +130,57 @@
 				DD44E77E29CC83DF00AF0B5D /* LoginResponseModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DD44E78029CC842500AF0B5D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD44E78129CC843400AF0B5D /* UIColor+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DD44E78429CC844F00AF0B5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD44E79029CC852000AF0B5D /* Camera */,
+				DD44E78A29CC84B400AF0B5D /* Components */,
+				DD44E78529CC845600AF0B5D /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD44E78529CC845600AF0B5D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DD44E78629CC846200AF0B5D /* HomeViewController.swift */,
+				DD44E78829CC846B00AF0B5D /* HomeViewViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DD44E78A29CC84B400AF0B5D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DD44E78B29CC84C500AF0B5D /* TaskTableViewCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DD44E78D29CC84F800AF0B5D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DD44E78E29CC850400AF0B5D /* DataPersistenceManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DD44E79029CC852000AF0B5D /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				DD44E79129CC852B00AF0B5D /* CameraViewController.swift */,
+			);
+			path = Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,7 +243,6 @@
 			files = (
 				DD44E75A29C9F89B00AF0B5D /* LaunchScreen.storyboard in Resources */,
 				DD44E75729C9F89B00AF0B5D /* Assets.xcassets in Resources */,
-				DD44E75229C9F89B00AF0B5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,15 +254,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD44E77729CC839B00AF0B5D /* NetworkServiceHelper.swift in Sources */,
-				DD44E74F29C9F89B00AF0B5D /* ViewController.swift in Sources */,
+				DD44E78F29CC850400AF0B5D /* DataPersistenceManager.swift in Sources */,
+				DD44E79229CC852B00AF0B5D /* CameraViewController.swift in Sources */,
+				DD44E78C29CC84C500AF0B5D /* TaskTableViewCell.swift in Sources */,
 				DD44E77D29CC83D000AF0B5D /* ItemsModel.swift in Sources */,
 				DD44E74B29C9F89B00AF0B5D /* AppDelegate.swift in Sources */,
 				DD44E77029CC833200AF0B5D /* NetworkManager.swift in Sources */,
 				DD44E77A29CC83B500AF0B5D /* NetworkService.swift in Sources */,
 				DD44E74D29C9F89B00AF0B5D /* SceneDelegate.swift in Sources */,
 				DD44E77329CC835F00AF0B5D /* Errors.swift in Sources */,
+				DD44E78929CC846B00AF0B5D /* HomeViewViewModel.swift in Sources */,
 				DD44E75529C9F89B00AF0B5D /* Vero_Digital_Solutions_Case.xcdatamodeld in Sources */,
+				DD44E78229CC843400AF0B5D /* UIColor+Ext.swift in Sources */,
 				DD44E77529CC837E00AF0B5D /* HTTPMethods.swift in Sources */,
+				DD44E78729CC846200AF0B5D /* HomeViewController.swift in Sources */,
 				DD44E77F29CC83DF00AF0B5D /* LoginResponseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,14 +275,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DD44E75029C9F89B00AF0B5D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD44E75129C9F89B00AF0B5D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DD44E75829C9F89B00AF0B5D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -356,7 +412,6 @@
 				INFOPLIST_FILE = "Vero-Digital-Solutions-Case/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -384,7 +439,6 @@
 				INFOPLIST_FILE = "Vero-Digital-Solutions-Case/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

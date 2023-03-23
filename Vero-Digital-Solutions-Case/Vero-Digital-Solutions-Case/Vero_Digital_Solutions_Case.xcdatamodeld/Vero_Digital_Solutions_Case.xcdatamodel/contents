@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21279" systemVersion="21G115" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TaskItems" representedClassName="TaskItems" syncable="YES" codeGenerationType="class">
+        <attribute name="businessUnit" optional="YES" attributeType="String"/>
+        <attribute name="businessUnitKey" optional="YES" attributeType="String"/>
+        <attribute name="colorCode" optional="YES" attributeType="String"/>
+        <attribute name="descriptionn" optional="YES" attributeType="String"/>
+        <attribute name="isAvailableInTimeTrackingKioskMode" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="parentTaskID" optional="YES" attributeType="String"/>
+        <attribute name="preplanningBoardQuickSelect" optional="YES" attributeType="String"/>
+        <attribute name="sort" optional="YES" attributeType="String"/>
+        <attribute name="task" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="wageType" optional="YES" attributeType="String"/>
+        <attribute name="workingTime" optional="YES" attributeType="String"/>
+    </entity>
 </model>
