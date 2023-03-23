@@ -14,6 +14,13 @@
 		DD44E75529C9F89B00AF0B5D /* Vero_Digital_Solutions_Case.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD44E75329C9F89B00AF0B5D /* Vero_Digital_Solutions_Case.xcdatamodeld */; };
 		DD44E75729C9F89B00AF0B5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD44E75629C9F89B00AF0B5D /* Assets.xcassets */; };
 		DD44E75A29C9F89B00AF0B5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD44E75829C9F89B00AF0B5D /* LaunchScreen.storyboard */; };
+		DD44E77029CC833200AF0B5D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E76F29CC833200AF0B5D /* NetworkManager.swift */; };
+		DD44E77329CC835F00AF0B5D /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E77229CC835F00AF0B5D /* Errors.swift */; };
+		DD44E77529CC837E00AF0B5D /* HTTPMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E77429CC837E00AF0B5D /* HTTPMethods.swift */; };
+		DD44E77729CC839B00AF0B5D /* NetworkServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E77629CC839B00AF0B5D /* NetworkServiceHelper.swift */; };
+		DD44E77A29CC83B500AF0B5D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E77929CC83B500AF0B5D /* NetworkService.swift */; };
+		DD44E77D29CC83D000AF0B5D /* ItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E77C29CC83D000AF0B5D /* ItemsModel.swift */; };
+		DD44E77F29CC83DF00AF0B5D /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44E77E29CC83DF00AF0B5D /* LoginResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		DD44E75629C9F89B00AF0B5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD44E75929C9F89B00AF0B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD44E75B29C9F89B00AF0B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD44E76F29CC833200AF0B5D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		DD44E77229CC835F00AF0B5D /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		DD44E77429CC837E00AF0B5D /* HTTPMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
+		DD44E77629CC839B00AF0B5D /* NetworkServiceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceHelper.swift; sourceTree = "<group>"; };
+		DD44E77929CC83B500AF0B5D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		DD44E77C29CC83D000AF0B5D /* ItemsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsModel.swift; sourceTree = "<group>"; };
+		DD44E77E29CC83DF00AF0B5D /* LoginResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,10 @@
 		DD44E74929C9F89B00AF0B5D /* Vero-Digital-Solutions-Case */ = {
 			isa = PBXGroup;
 			children = (
+				DD44E77B29CC83C700AF0B5D /* Model */,
+				DD44E77829CC83A700AF0B5D /* Service */,
+				DD44E77129CC834600AF0B5D /* Helpers */,
+				DD44E76E29CC832500AF0B5D /* Network */,
 				DD44E74A29C9F89B00AF0B5D /* AppDelegate.swift */,
 				DD44E74C29C9F89B00AF0B5D /* SceneDelegate.swift */,
 				DD44E74E29C9F89B00AF0B5D /* ViewController.swift */,
@@ -68,6 +86,41 @@
 				DD44E75329C9F89B00AF0B5D /* Vero_Digital_Solutions_Case.xcdatamodeld */,
 			);
 			path = "Vero-Digital-Solutions-Case";
+			sourceTree = "<group>";
+		};
+		DD44E76E29CC832500AF0B5D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DD44E76F29CC833200AF0B5D /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DD44E77129CC834600AF0B5D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DD44E77229CC835F00AF0B5D /* Errors.swift */,
+				DD44E77429CC837E00AF0B5D /* HTTPMethods.swift */,
+				DD44E77629CC839B00AF0B5D /* NetworkServiceHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DD44E77829CC83A700AF0B5D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DD44E77929CC83B500AF0B5D /* NetworkService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DD44E77B29CC83C700AF0B5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD44E77C29CC83D000AF0B5D /* ItemsModel.swift */,
+				DD44E77E29CC83DF00AF0B5D /* LoginResponseModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +194,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD44E77729CC839B00AF0B5D /* NetworkServiceHelper.swift in Sources */,
 				DD44E74F29C9F89B00AF0B5D /* ViewController.swift in Sources */,
+				DD44E77D29CC83D000AF0B5D /* ItemsModel.swift in Sources */,
 				DD44E74B29C9F89B00AF0B5D /* AppDelegate.swift in Sources */,
+				DD44E77029CC833200AF0B5D /* NetworkManager.swift in Sources */,
+				DD44E77A29CC83B500AF0B5D /* NetworkService.swift in Sources */,
 				DD44E74D29C9F89B00AF0B5D /* SceneDelegate.swift in Sources */,
+				DD44E77329CC835F00AF0B5D /* Errors.swift in Sources */,
 				DD44E75529C9F89B00AF0B5D /* Vero_Digital_Solutions_Case.xcdatamodeld in Sources */,
+				DD44E77529CC837E00AF0B5D /* HTTPMethods.swift in Sources */,
+				DD44E77F29CC83DF00AF0B5D /* LoginResponseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
